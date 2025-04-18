@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "df27e908-ea8a-48e4-aa07-1ef8261f7ad0",
+		"name": "hr_oasis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39830366"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/users",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"nico\",\r\n    \"email\": \"ncardozo19@gmail.com\",\r\n    \"password\": \"ads1234RE\",\r\n    \"phones\": [\r\n        {\r\n            \"countrycode\": \"54\",\r\n            \"citycode\": \"11\",\r\n            \"number\": \"53289129\"\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
