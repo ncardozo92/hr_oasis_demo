@@ -8,3 +8,7 @@ Una vez hecho esto ya se puede usar la app.
 
 ## Script de prueba
 se adjunta una simple postman collection para probar, no requiere variables de entorno
+
+## Lombok
+Para reducir código "tedioso" se implementa la librería lombok para ahorrar la escritura de getters, setters y constructores.
+Para poder visualizar los mismos al implementar la librería, se deberá instalar en el IDE a usar el plugin correspondiente.
